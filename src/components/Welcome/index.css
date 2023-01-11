@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e293b;
+  min-height: 100vh;
+}
+.button {
+  font-size: 15px;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  color: #1e293b;
+  width: 100px;
+  height: 40px;
+  font-weight: 500;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Bree Serif';
+  color: #f0bb03;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 100px;
+  }
+}
+.greeting {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .greeting {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button {
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
